@@ -4,19 +4,25 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
     }
 
 h1, h2 {
     text-align: center;
 }
 
-
+h1 {
+    background-color: rgba(204,255,255,.5);
+    margin: 0;
+    padding-top: .63em;
+    padding-bottom: .63em;
+}
 
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(204,255,255,.5)
+    background-color: rgba(204,255,255,.5);
 }
 
 main > div.container {
@@ -26,9 +32,18 @@ main > div.container {
 
 h2 {
     background-color: rgba(230,255,204,.5);
+    margin: 0;
+    padding-top: .83em;
+    padding-bottom: .83em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
 }
 
-
+p, img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 .text-container {
     display: flex;
@@ -40,6 +55,7 @@ h2 {
     order: 2;
     justify-content: center;
     align-items: center;
+
 }
 
 .image-container img {
