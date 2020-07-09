@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(204,255,255,.5)
+}
+
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.image-container {
+    order: 2;
+}
+
+.image-container img {
+    width: 100%;
+}
