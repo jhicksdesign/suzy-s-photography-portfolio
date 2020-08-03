@@ -10,7 +10,7 @@ const gallerySwitch = (ev) => {
         buttonTwo.disabled = false;
         buttonThree.disabled = false;
         firstRow.classList.remove("d-none")
-        secondRow.classList.add("d-none")
+        secondRow.classList.add("invisible")
         thirdRow.classList.add("d-none")
     } else if (ev === buttonTwo) {
         buttonOne.disabled = false;

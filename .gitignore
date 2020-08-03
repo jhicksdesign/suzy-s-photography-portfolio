@@ -1,3 +1,6 @@
 .DS_STORE
 /.idea
 /vendor
+/public_html/node_modules
+/public_html/package-lock.json
+/public_html/package.json
