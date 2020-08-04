@@ -13,7 +13,7 @@ main {
 
 .masthead {
 	height: 80vh;
-	background-image: url('images/BannerMainXL.png');
+	background-image: url('images/BannerMainXL-SmallerFile.png');
 	background-size: cover;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -32,4 +32,7 @@ main {
 	width: 40vh;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.footer {
 }

@@ -10,11 +10,11 @@ $grid-breakpoints: (
   sm: 480px,
   md: 768px,
   lg: 1400px,
-  xl: 1920px
+  xl: 1700px
 );
 
-$enable-responsive-font-sizes: false;
+$enable-responsive-font-sizes: true;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../../../node/node_modules/bootstrap/scss/bootstrap";
 
 
