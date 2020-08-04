@@ -15,7 +15,7 @@ main {
 	height: 80vh;
 	background-image: url('images/BannerMainXL.png');
 	background-size: cover;
-	background-position: 50% 75%;
+	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
 
@@ -23,7 +23,7 @@ main {
 	width: 35vh;
 	background-image: url('https://via.placeholder.com/400');
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 25%;
 	background-repeat: no-repeat;
 }
 
