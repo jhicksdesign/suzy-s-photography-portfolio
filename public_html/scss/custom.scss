@@ -1,0 +1,20 @@
+
+$theme-colors: (
+  "primary": #575F6E,
+  "secondary": #EAEEF7,
+  "warning": #CCF5FF
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1920px
+);
+
+$enable-responsive-font-sizes: false;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+

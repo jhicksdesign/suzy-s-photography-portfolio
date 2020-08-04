@@ -5,17 +5,31 @@ section img {
 	max-height: 400px; !important;
 }
 
+main {
+	max-width: 1960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .masthead {
-	height: 75vh;
-	background-image: url('images/BannerMain.jpeg');
+	height: 80vh;
+	background-image: url('images/BannerMainXL.png');
 	background-size: cover;
 	background-position: 50% 75%;
 	background-repeat: no-repeat;
 }
 
 .test-two {
+	width: 35vh;
 	background-image: url('https://via.placeholder.com/400');
 	background-size: cover;
-	background-position: 50% 75%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+
+.vh {
+	height: 40vh;
+	width: 40vh;
+	margin-left: auto;
+	margin-right: auto;
 }
