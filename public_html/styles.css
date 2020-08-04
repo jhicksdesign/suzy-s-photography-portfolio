@@ -4,3 +4,18 @@ article img {
 section img {
 	max-height: 400px; !important;
 }
+
+.masthead {
+	height: 75vh;
+	background-image: url('images/BannerMain.jpeg');
+	background-size: cover;
+	background-position: 50% 75%;
+	background-repeat: no-repeat;
+}
+
+.test-two {
+	background-image: url('https://via.placeholder.com/400');
+	background-size: cover;
+	background-position: 50% 75%;
+	background-repeat: no-repeat;
+}
