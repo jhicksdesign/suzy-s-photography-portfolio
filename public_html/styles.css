@@ -21,3 +21,10 @@ main {
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
+
+h1, h2 {
+	font-family: p22-pouty-pro, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: normal;
+}
