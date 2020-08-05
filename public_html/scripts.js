@@ -28,3 +28,17 @@ const gallerySwitch = (ev) => {
     thirdRow.classList.remove("d-none")
   }
 }
+
+window.onload = () => {
+  initModal()
+}
+
+const initModal = () => {
+  let modals = document.querySelectorAll('.pop')
+    modals.forEach((element) => {
+      element.addEventListener("click", () => {
+        document.querySelector('.image-preview').src = element.src
+        $('#image-modal').modal("show")
+    })
+  })
+}
