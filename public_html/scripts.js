@@ -29,6 +29,18 @@ const gallerySwitch = (ev) => {
   }
 }
 
+let slideSource = document.getElementById('slideSource');
+
+document.getElementById('handle').onclick = function () {
+  slideSource.classList.toggle('fade');
+}
+
+const setFade = (button, row) => {
+  document.getElementById(button).onclick = () => {
+    setTimeout(() => {row.classList.toggle('d-none')}, 500)
+  }
+}
+
 window.onload = () => {
   initModal()
 }
