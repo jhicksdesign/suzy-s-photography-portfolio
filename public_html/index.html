@@ -11,154 +11,182 @@
 </head>
 
 <body class="container-fluid p-0 bg-secondary">
-    <header class="jumbotron-fluid jumboImage">
-        <div class="justify-content-center d-flex">
+<header class="jumbotron-fluid jumboImage">
+    <div class="justify-content-center d-flex">
+    </div>
+</header>
+
+<main>
+    <div class="px-3">
+        <h2 class="text-center py-5 text-primary">Portfolio</h2>
+        <div class="row d-fluid d-md-none justify-content-around">
+            <button class="btn btn-light badge-pill" id="button-one" onclick="gallerySwitch(this)" disabled>Category 1
+            </button>
+            <button class="btn btn-light badge-pill" id="button-two" onclick="gallerySwitch(this)">Category 2</button>
+            <button class="btn btn-light badge-pill" id="button-three" onclick="gallerySwitch(this)">Category 3</button>
         </div>
-    </header>
-
-    <main>
-        <div class="px-3">
-            <h2 class="text-center py-5 text-primary">Portfolio</h2>
-            <div class="row d-fluid d-md-none justify-content-around">
-                <button class="btn btn-light badge-pill" id="button-one" onclick="gallerySwitch(this)" disabled>Category 1</button>
-                <button class="btn btn-light badge-pill" id="button-two" onclick="gallerySwitch(this)">Category 2</button>
-                <button class="btn btn-light badge-pill" id="button-three" onclick="gallerySwitch(this)">Category 3</button>
-            </div>
-            <div class="row d-md-flex show" id="first-row">
-                <img src="https://via.placeholder.com/800" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
-                <img src="https://via.placeholder.com/850" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
-                <img src="https://via.placeholder.com/825" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
-                <img src="https://via.placeholder.com/875" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
-            </div>
-            <div class="row d-none d-md-flex" id="second-row">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
-            </div>
-            <div class="row d-none d-md-flex" id="third-row">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
-                <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
-            </div>
+        <div class="row d-md-flex show" id="first-row">
+            <img src="https://via.placeholder.com/800" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
+            <img src="https://via.placeholder.com/850" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
+            <img src="https://via.placeholder.com/825" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
+            <img src="https://via.placeholder.com/875" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
         </div>
-
-        <article class="px-3">
-            <div>
-                <h2 class="py-5 text-primary">About Me</h2>
-            </div>
-            <div class="row d-flex">
-                <img src="https://via.placeholder.com/400" alt="placeholder" class="col-md col-12 col-xl-4 img-fluid">
-                <div class="col-md col-12 lead mt-auto mb-auto">
-                    <p>Hi! My name is Suzy. I'm a photographer based out of Albuquerque, NM. I was born and raised here and love taking pictures for the community. I've been in love with photography since I started in 2007. I have had the opportunity to start off with portraits of local bands and concerts, and found my passion did not stop there.</p>
-                    <p>I also like to do wedding, couples, family, and individual portraits. I prefer to shoot on location in natural lighting, and I love finding new ways to make taking photos as comfortable and fun as possible.</p>
-                </div>
-                <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
-            </div>
-        </article>
-
-        <section class="px-3">
-            <div>
-                <h2 class="text-right py-5 text-primary">My Services</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
-                <div class="col-md col-12 lead d-none d-md-flex flex-column mt-auto mb-auto">
-                    <p>I am excited to be your personal photographer! Some of the services that I provide are:</p>
-                    <ul class="list-group">
-                        <li class="list-group-item text-center">Portrait Photography</li>
-                        <li class="list-group-item text-center">Wedding Photography</li>
-                        <li class="list-group-item text-center">Photo Editing</li>
-                        <li class="list-group-item text-center">Photo Retouching</li>
-                        <li class="list-group-item text-center">Photoshop</li>
-                    </ul>
-                </div>
-                <img src="https://via.placeholder.com/400" alt="placeholder" class="col-md col-12 img-fluid">
-                <div class="col-md col-12 lead d-flex d-md-none flex-column">
-                    <p>I am excited to be your personal photographer! Some of the services that I provide are:</p>
-                    <ul class="list-group">
-                        <li class="list-group-item text-center">Portrait Photography</li>
-                        <li class="list-group-item text-center">Wedding Photography</li>
-                        <li class="list-group-item text-center">Photo Editing</li>
-                        <li class="list-group-item text-center">Photo Retouching</li>
-                        <li class="list-group-item text-center">Photoshop</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <form class="row px-0 mb-3 mx-0">
-            <div class="col-12">
-                <h2 class="text-left py-5 text-primary">Contact Me</h2>
-            </div>
-            <img src="https://via.placeholder.com/450" alt="placeholder" class="img-fluid col-12 col-md">
-            <div class="col-md col-12 lead d-md-flex flex-column mt-0 pt-0">
-                <div class="form-group">
-                    <label for="inputFirstName" class="text-primary">First Name</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-user-o"></i></span>
-                        </div>
-                        <input class="form-control" id="inputFirstName" name="name" placeholder="First Name" type="text">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputLastName" class="text-primary">Last Name</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-user"></i></span>
-                        </div>
-                        <input class="form-control" id="inputLastName" name="name" placeholder="Last Name" type="text">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-                        </div>
-                        <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="message" class="text-primary">Let me know what I can do for you!</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-comment"></i></span>
-                        </div>
-                        <textarea class="form-control" id="message" maxlength="2000" name="message"
-                                  placeholder="Your Message (2000 characters max)" required
-                                  rows="5"></textarea>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-            </div>
-            <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
-        </form>
-    </main>
-
-    <div class="modal fade" id="image-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content rounded-0">
-                <img src="#" alt="Modal Image" class="image-preview my-auto" style="width: 100%;" >
-            </div>
+        <div class="row d-none d-md-flex" id="second-row">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
+        </div>
+        <div class="row d-none d-md-flex" id="third-row">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
+            <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
         </div>
     </div>
 
-    <footer class="footer bg-primary">
-        <div class="d-flex justify-content-around">
-            <a href="https://www.instagram.com/suzy.s.photography/">
-                <i class="fab fa-instagram fa-3x text-info"></i>
-            </a>
-            <p class="align-content-center mt-auto mb-auto">Designed by <a class="text-secondary" href="https://www.jhicksdesign.com">JHicksDesign</a></p>
+    <article class="px-3">
+        <div>
+            <h2 class="py-5 text-primary">About Me</h2>
         </div>
-    </footer>
+        <div class="row d-flex">
+            <img src="https://via.placeholder.com/400" alt="placeholder" class="col-md col-12 col-xl-4 img-fluid">
+            <div class="col-md col-12 lead mt-auto mb-auto">
+                <p>Hi! My name is Suzy. I'm a photographer based out of Albuquerque, NM. I was born and raised here and
+                    love taking pictures for the community. I've been in love with photography since I started in 2007.
+                    I have had the opportunity to start off with portraits of local bands and concerts, and found my
+                    passion did not stop there.</p>
+                <p>I also like to do wedding, couples, family, and individual portraits. I prefer to shoot on location
+                    in natural lighting, and I love finding new ways to make taking photos as comfortable and fun as
+                    possible.</p>
+            </div>
+            <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
+        </div>
+    </article>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4242dc75bb.js" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <section class="px-3">
+        <div>
+            <h2 class="text-right py-5 text-primary">My Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
+            <div class="col-md col-12 lead d-none d-md-flex flex-column mt-auto mb-auto">
+                <p>I am excited to be your personal photographer! Some of the services that I provide are:</p>
+                <ul class="list-group">
+                    <li class="list-group-item text-center">Portrait Photography</li>
+                    <li class="list-group-item text-center">Wedding Photography</li>
+                    <li class="list-group-item text-center">Photo Editing</li>
+                    <li class="list-group-item text-center">Photo Retouching</li>
+                    <li class="list-group-item text-center">Photoshop</li>
+                </ul>
+            </div>
+            <img src="https://via.placeholder.com/400" alt="placeholder" class="col-md col-12 img-fluid">
+            <div class="col-md col-12 lead d-flex d-md-none flex-column">
+                <p>I am excited to be your personal photographer! Some of the services that I provide are:</p>
+                <ul class="list-group">
+                    <li class="list-group-item text-center">Portrait Photography</li>
+                    <li class="list-group-item text-center">Wedding Photography</li>
+                    <li class="list-group-item text-center">Photo Editing</li>
+                    <li class="list-group-item text-center">Photo Retouching</li>
+                    <li class="list-group-item text-center">Photoshop</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <form action="./apis/" id="contact" method="post" class="row px-0 mb-3 mx-0" novalidate>
+        <div class="col-12">
+            <h2 class="text-left py-5 text-primary">Contact Me</h2>
+        </div>
+        <img src="https://via.placeholder.com/450" alt="placeholder" class="img-fluid col-12 col-md">
+        <div class="col-md col-12 lead d-md-flex flex-column mt-0 pt-0">
+            <div class="form-group">
+                <label for="name" class="text-primary">Name</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+                    </div>
+                    <input class="form-control" id="name" name="name" placeholder="Your Name" type="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="subject" class="text-primary">Subject</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+                    </div>
+                    <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                    </div>
+                    <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="text-primary">Let me know what I can do for you!</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-comment"></i></span>
+                    </div>
+                    <textarea class="form-control" id="message" maxlength="2000" name="message"
+                              placeholder="Your Message (2000 characters max)" required
+                              rows="5"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+            <div class="g-recaptcha" data-sitekey="6LdEmr0ZAAAAAIzx6LKoYH9Jkmu0CvuDKT9L2_8h"></div>
+        </div>
+        <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
+    </form>
+    <div id="output-area"></div>
+</main>
+
+<div class="modal fade" id="image-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-0">
+            <img src="#" alt="Modal Image" class="image-preview my-auto" style="width: 100%;">
+        </div>
+    </div>
+</div>
+
+<footer class="footer bg-primary">
+    <div class="d-flex justify-content-around">
+        <a href="https://www.instagram.com/suzy.s.photography/">
+            <i class="fab fa-instagram fa-3x text-info"></i>
+        </a>
+        <p class="align-content-center mt-auto mb-auto">Designed by <a class="text-secondary"
+                                                                       href="https://www.jhicksdesign.com">JHicksDesign</a>
+        </p>
+    </div>
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+<script src="https://kit.fontawesome.com/4242dc75bb.js" crossorigin="anonymous"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="scripts.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
