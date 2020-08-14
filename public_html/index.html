@@ -20,24 +20,24 @@
     <div class="px-3">
         <h2 class="text-center py-5 text-primary">Portfolio</h2>
         <div class="row d-fluid d-md-none justify-content-around">
-            <button class="btn btn-light badge-pill" id="button-one" onclick="gallerySwitch(this)" disabled>Category 1
+            <button class="btn btn-light badge-pill" id="button-one" name="first-row" onclick="gallerySwitch(this)" disabled>Category 1
             </button>
-            <button class="btn btn-light badge-pill" id="button-two" onclick="gallerySwitch(this)">Category 2</button>
-            <button class="btn btn-light badge-pill" id="button-three" onclick="gallerySwitch(this)">Category 3</button>
+            <button class="btn btn-light badge-pill test" id="button-two" name="second-row" onclick="gallerySwitch(this)">Category 2</button>
+            <button class="btn btn-light badge-pill test" id="button-three" name="third-row" onclick="gallerySwitch(this)">Category 3</button>
         </div>
-        <div class="row d-md-flex show" id="first-row">
+        <div class="row d-md-flex fade-in" id="first-row">
             <img src="https://via.placeholder.com/800" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
             <img src="https://via.placeholder.com/850" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
             <img src="https://via.placeholder.com/825" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
             <img src="https://via.placeholder.com/875" class="img-fluid col-6 col-md-3 p-1 pop" alt="placeholder">
         </div>
-        <div class="row d-none d-md-flex" id="second-row">
+        <div class="row d-none d-md-flex fade-in" id="second-row">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/850" alt="placeholder">
         </div>
-        <div class="row d-none d-md-flex" id="third-row">
+        <div class="row d-none d-md-flex fade-in" id="third-row">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
             <img class="img-fluid col-6 col-md-3 p-1 pop" src="https://via.placeholder.com/900" alt="placeholder">
@@ -185,8 +185,8 @@
         integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 <script src="https://kit.fontawesome.com/4242dc75bb.js" crossorigin="anonymous"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="scripts.js"></script>
 <script src="js/script.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>

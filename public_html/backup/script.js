@@ -1,33 +1,36 @@
 $(document).ready(function () {
-  $(`#contact`).validate({
+  $("#contact").validate({
     debug: true,
-    errorClass: 'alert alert-danger',
-    errorLabelContainer: '#output-area',
-    errorElement: 'div',
+    errorClass: "alert alert-danger",
+    errorLabelContainer: "#output-area",
+    errorElement: "div",
+
     rules: {
       name: {
         required: true
       },
+
       email: {
         email: true,
         required: true
       },
       message: {
         required: true,
-        maxlength: 2000,
+        maxlength: 2000
       }
     },
+
     messages: {
       name: {
-        required: 'Name is a required field.',
+        required: "Name is a required field."
       },
       email: {
-        required: 'Email is a required field.',
-        email: 'Please provide a valid email address.',
+        required: "Email is a required field.",
+        email: "Please provide a valid email address."
       },
       message: {
-        required: 'Message is a required field.',
-        maxlength: 'Message is too long.',
+        required: "Message is a required field.",
+        maxlength: "Message is too long."
       }
     },
     submitHandler: function (form) {
@@ -45,4 +48,5 @@ $(document).ready(function () {
       })
     }
   })
+
 })

@@ -1,3 +1,4 @@
+
 const gallerySwitch = (ev) => {
   const buttonOne = document.getElementById("button-one");
   const buttonTwo = document.getElementById("button-two");
@@ -16,28 +17,16 @@ const gallerySwitch = (ev) => {
     buttonOne.disabled = false;
     buttonTwo.disabled = true;
     buttonThree.disabled = false;
-    firstRow.classList.add("d-none")
     secondRow.classList.remove("d-none")
+    firstRow.classList.add("d-none")
     thirdRow.classList.add("d-none")
   } else {
     buttonOne.disabled = false;
     buttonTwo.disabled = false;
     buttonThree.disabled = true;
+    thirdRow.classList.remove("d-none")
     firstRow.classList.add("d-none")
     secondRow.classList.add("d-none")
-    thirdRow.classList.remove("d-none")
-  }
-}
-
-let slideSource = document.getElementById('slideSource');
-
-document.getElementById('handle').onclick = function () {
-  slideSource.classList.toggle('fade');
-}
-
-const setFade = (button, row) => {
-  document.getElementById(button).onclick = () => {
-    setTimeout(() => {row.classList.toggle('d-none')}, 500)
   }
 }
 
