@@ -16,7 +16,7 @@ main {
 
 .jumboImage {
 	height: 80vh;
-	background-image: url('../images/BannerMainXL.png');
+	background-image: url('../images/BannerMainXL.jpg');
 	background-size: cover;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -48,4 +48,8 @@ h1, h2 {
 
 .pop:hover {
 	border: 1px;
+}
+
+.modal-dialog {
+	max-width: 65vh;
 }
