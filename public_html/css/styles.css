@@ -62,3 +62,7 @@ h1, h2 {
 .btn {
 	height: 64px !important;
 }
+
+.cover {
+	object-fit: cover;
+}
