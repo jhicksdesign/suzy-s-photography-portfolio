@@ -105,46 +105,61 @@
         </div>
         <img src="https://via.placeholder.com/450" alt="placeholder" class="img-fluid col-12 col-md">
         <div class="col-md col-12 lead d-md-flex flex-column mt-0 pt-0">
-            <div class="form-group">
-                <label for="name" class="text-primary">Name</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name" class="text-primary">Name</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+                            </div>
+                            <input class="form-control" id="name" name="name" placeholder="Your Name" type="text">
+                        </div>
                     </div>
-                    <input class="form-control" id="name" name="name" placeholder="Your Name" type="text">
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="subject" class="text-primary">Subject</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+                            </div>
+                            <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                            </div>
+                            <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="message" class="text-primary">Let me know what I can do for you!</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-comment"></i></span>
+                            </div>
+                            <textarea class="form-control" id="message" maxlength="2000" name="message"
+                                      placeholder="Your Message (2000 characters max)" required
+                                      rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xs-12">
+                    <div class="g-recaptcha" data-sitekey="6LdEmr0ZAAAAAIzx6LKoYH9Jkmu0CvuDKT9L2_8h"></div>
+                </div>
+                <div class="col-sm-12 d-md-none"></div>
+                <div class="col-4 col-md-3 col-12 mt-md-0 mt-3">
+                    <button type="submit" class="btn btn-info btn-block">Submit</button>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="subject" class="text-primary">Subject</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-pencil"></i></span>
-                    </div>
-                    <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-                    </div>
-                    <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="message" class="text-primary">Let me know what I can do for you!</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-comment"></i></span>
-                    </div>
-                    <textarea class="form-control" id="message" maxlength="2000" name="message"
-                              placeholder="Your Message (2000 characters max)" required
-                              rows="5"></textarea>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-info">Submit</button>
-            <div class="g-recaptcha" data-sitekey="6LdEmr0ZAAAAAIzx6LKoYH9Jkmu0CvuDKT9L2_8h"></div>
         </div>
         <div class="col-lg-2 col-xl-4 d-none d-md-flex"></div>
     </form>

@@ -53,3 +53,12 @@ h1, h2 {
 .modal-dialog {
 	max-width: 65vh;
 }
+
+.g-recaptcha {
+	transform:scale(0.95);
+	transform-origin:0 0;
+}
+
+.btn {
+	height: 64px !important;
+}
