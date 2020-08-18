@@ -52,6 +52,7 @@ h1, h2 {
 
 .modal-dialog {
 	max-width: 65vh;
+	max-height: 90vh;
 }
 
 .g-recaptcha {
@@ -65,4 +66,8 @@ h1, h2 {
 
 .cover {
 	object-fit: cover;
+}
+
+.modal-open {
+	overflow-y: auto;
 }
