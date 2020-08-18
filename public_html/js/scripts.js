@@ -47,6 +47,7 @@ $(document).ready(function () {
   })
 })
 
+// Code to hide and display photos in mobile view, also disables clicked button and enables other buttons..
 const gallerySwitch = (ev) => {
   const buttonOne = document.getElementById("button-one");
   const buttonTwo = document.getElementById("button-two");
@@ -82,6 +83,7 @@ window.onload = () => {
   initModal()
 }
 
+// Adds event listener to all pictures in gallery, allows for modal functionality with bootstrap.
 const initModal = () => {
   let modals = document.querySelectorAll('.pop')
   modals.forEach((element) => {
