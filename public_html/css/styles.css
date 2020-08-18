@@ -57,6 +57,10 @@ h1, h2 {
     max-height: 90vh;
 }
 
+.modal {
+    padding-right: 0 !important;
+}
+
 .g-recaptcha {
     transform: scale(0.95);
     transform-origin: 0 0;
